@@ -1,0 +1,94 @@
+body {
+    padding: 0;
+    margin: 0;
+    background: url("img/background.png");
+    background-size: 50%;
+    
+}
+
+header img {
+    float: left;
+    position: absolute;/*pengaturan nav bar*/
+    margin: 1% 40% 0% 0%;/*pengaturan posisi logo*/
+    overflow-x: scroll;
+}
+
+header {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: white;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+
+/*untuk geser ke kanan*/
+
+li {
+    float: right;
+    margin:0% 0% 0.5% 1.5%;
+}
+
+
+/*untuk membuat bar putih*/
+
+ul li {
+    display: inline-block;
+    color: cadetblue;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+h1 {
+    margin: 13% 25% 3% 25%;/*mengatur posisi atas kanan bawah dan kiri "Feature Post" */
+    text-align: center;/*mengatur alignment dari h1*/
+    font-size: 250%;/*mengatur font sizenya*/
+    font-weight: bold;/*mengatur ukuran tulisan h1 agar menjadi tebal*/
+    color: midnightblue;/*mengatur warna h1 */
+}
+
+#article-list {
+    background-color: white;/*kertas putih*/
+    box-sizing: border-box;/*ukuran border*/
+    border: 0px solid #466995;
+    text-align: left;/*untuk posisi tulisan */
+    
+    margin: 2% 25% 5% 25%; /*pengaturan jarak kotak putih dengan h1*/
+    /*untuk mengator posisi kotak putih agar di tengah" */
+}
+
+p {
+    border-bottom: 2px solid rgba(0, 0, 0, .1); /*garis bawah*/
+    padding-bottom: 50px;/*posisi garis bawah dengan paragraf*/
+    margin: 2% 10% 5% 3%; /*margin untuk atas kana kiri bawah paragraf*/
+    
+}
+
+h3 { 
+    padding:20px 0px 5px 0px;/*untuk mengatur posisi Lorem Post*/
+    margin: 2% 25% 5% 3%; /*mengatur posisi pinggir Lorem Post */
+}
+    
+h5{
+    float: center;
+    margin:1% 40% 1% 40%;/*posisi by hackfox*/
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 5px 0px 0px 0px;
+    text-decoration: none;
+}
+footer{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: black;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
