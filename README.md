@@ -3,8 +3,8 @@
 
 ### there are 2 files and 1 folder
 
-*index.html
-*style.css
-*img folder
-  **logo.png
-  **background.png
+*Item index.html
+*Item style.css
+*Item img folder
+  **Item logo.png
+  **Item background.png
