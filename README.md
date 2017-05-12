@@ -6,5 +6,5 @@
 1. Item index.html
 2. Item style.css
 3. Item img folder
-  3. Item logo.png
-  3. Item background.png
+  * Item logo.png
+  * Item background.png
